@@ -1,0 +1,6 @@
+framework module objective_c_core_helpers {
+  umbrella header "objective_c_core_helpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

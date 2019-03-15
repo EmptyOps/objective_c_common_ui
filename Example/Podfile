@@ -1,13 +1,15 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '7.0'
 
+source 'https://github.com/CocoaPods/Specs.git’
+source 'https://github.com/EmptyOps/objective_c_common_ui.git'
 target 'objective_c_common_ui_Example' do
   pod 'objective_c_common_ui', :path => '../'
+  pod 'objective_c_common_helpers'
 
   target 'objective_c_common_ui_Tests' do
     inherit! :search_paths
 
-    
   end
 end

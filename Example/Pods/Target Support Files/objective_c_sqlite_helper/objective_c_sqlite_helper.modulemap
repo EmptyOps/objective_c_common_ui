@@ -1,0 +1,6 @@
+framework module objective_c_sqlite_helper {
+  umbrella header "objective_c_sqlite_helper-umbrella.h"
+
+  export *
+  module * { export * }
+}

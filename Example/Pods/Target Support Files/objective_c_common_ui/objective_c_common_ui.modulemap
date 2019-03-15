@@ -1,0 +1,6 @@
+framework module objective_c_common_ui {
+  umbrella header "objective_c_common_ui-umbrella.h"
+
+  export *
+  module * { export * }
+}
