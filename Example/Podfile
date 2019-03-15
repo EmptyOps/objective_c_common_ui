@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'objective_c_common_ui_Example' do
+  pod 'objective_c_common_ui', :path => '../'
+
+  target 'objective_c_common_ui_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
